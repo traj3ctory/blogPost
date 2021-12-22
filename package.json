@@ -1,0 +1,28 @@
+{
+  "name": "blog-post",
+  "version": "1.0.0",
+  "description": "Blog Post",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/traj3ctory/blogPost.git"
+  },
+  "author": "traj3ctory",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/traj3ctory/blogPost/issues"
+  },
+  "homepage": "https://github.com/traj3ctory/blogPost#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
